@@ -11,7 +11,7 @@
 	
 
 
-    <title>CT教材</title>
+    <title>CTforK-12</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./dic/bootstrap.css" rel="stylesheet">
@@ -32,17 +32,11 @@
       <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
         <a class="navbar-brand" href="index.html">
             <img src="pic/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-          Computational Thinking
+          Computational Thinking for K-12
           </a>
           <ul class="nav navbar-nav">
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="CTelementsNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CT內涵</a>
-                  <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
-                      <a class="dropdown-item" href="#D">拆解</a>
-                      <a class="dropdown-item" href="#P">模式辨識</a>
-                      <a class="dropdown-item" href="#Ab">抽象化</a>
-                      <a class="dropdown-item" href="#Al">演算法</a>
-                  </div>
+             <li  class="nav-item">
+                  <a class="nav-link" href="conception.html">CT內涵</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="course.html">教材<span class="sr-only">(current)</span></a>
@@ -55,6 +49,9 @@
                       <a class="dropdown-item" href="#">高中</a>
                   </div>
               </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about.html">關於我們<span class="sr-only"></span></a>
+              </li>
           </ul>
       </nav>
 
@@ -63,31 +60,45 @@
         <div class="container">
             <h1 class="display-4">運算思維內涵</h1>
             <div style="color:#AADDFF">
-            <p>拆解 decomposition<br>
-                模式辨識 pattern recognition<br>
-                抽象化 abstraction<br>
-                演算法 algorithms<br>
-            </p>
+            <p class="lead">運算思維是一種跨學科的問題解決能力，以一系列有次序的步驟，將複雜的問題分析、定義與表示，透過電腦或其他工具產生有效的解決方案與策略，它是一種心智工具，強調問題解決過程中，利用電腦科學提高問題解決效率的能力，運算思維應該是每個人應具備或最好具備的能力。</p>
             </div>
-            <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>-->
           </div>
         </div>
-
-    <div class="container">
-<!--    <hr class="featurette-divider">-->
+      <!--內容-->
+    <div class="container" style="text-align:left;">
         <div class="row">
-            <h1 id="D">拆解</h1>
-			
-             <img src="pic/" alt="Decomposition" width="200" height="200">
-              <p>~~~~</p>
-           
-            
-          </div><!--/row-->
-		<li><a href="#">to top</a></li>
-      <div class="progress">
-		<div class="bar" style="width: 100%;"></div>
-	   </div>
-      </div>
+            <!--左邊-->
+            <div class="col-sm-9">
+                <h1 id="D" style="padding-bottom: 1.25rem;margin-bottom: 2rem;border-bottom: .05rem solid #eee;">
+                    Decomposition 問題解析</h1>
+                <h3>Definitions</h3>
+                <table>
+                    <tr>
+                        <td><img src="pic/1.png" alt="Decomposition" width="300" height="300" style="text-align:left"></td>
+                        <td><h5>從英文字的字面意義，就是指「分解」，延伸解釋就是面對一個複雜問題、任務或專案時，能將資料、程序、問題拆解成較小、較易處理的部分。解決每一個小問題後，原先複雜的問題即被解決了。</h5></td>
+                    </tr>
+                </table>
+                <h3>Example</h3>
+                <h5>常遇到的是專案執行、軟硬體分析與建置。</h5>
+                <img src="image/D1.png" class="rounded float-xs-left" alt="D1" width="45%" height="45%">
+                <img src="image/D2.png" class="rounded float-xs-right" alt="D2" width="45%" height="45%">
+            </div> 
+            <!--右邊-->
+            <div class="col-sm-3">
+                <div class="sidebar-module">
+                <h4>Conceptions</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="#D">Decomposition 問題解析</a></li>
+                        <li><a href="#">Pattern Recognition 模式辨識</a></li>
+                        <li><a href="#">Abstraction 抽象化</a></li>
+                        <li><a href="#">Algorithm 演算法</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+      <li><a href="#">to top</a></li>
+    </div>
+      
 
 
       <!-- FOOTER -->
