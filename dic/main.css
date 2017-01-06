@@ -92,3 +92,27 @@ footer {
 .sidebar-module-inset ol:last-child {
   margin-bottom: 0;
 }
+/*conception content*/
+.blog-header {
+  
+  margin-bottom: 2rem;
+ 
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+.blog-reference {
+  margin-bottom: 4rem;
+  font-size: .5rem;
+}
+.blog-title {
+  padding-bottom: 1.25rem;
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+  border-bottom: .05rem solid #eee;
+}
+.blog-post {
+  margin-bottom: 1.25rem;
+}
+
